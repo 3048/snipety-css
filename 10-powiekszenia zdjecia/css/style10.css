@@ -1,0 +1,33 @@
+.square {
+
+	border: 3px solid black;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+
+}
+
+.square-in {
+	background-image: url(../image/blackberry.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 100%;
+	width:100%;
+	
+	
+}
+
+.square-in:hover {
+	transform: scale(1.2);
+	transition-duration: 5s;
+}
+
+
+
+
+
+
+
+
+

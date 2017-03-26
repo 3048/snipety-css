@@ -1,0 +1,13 @@
+a {
+	width: 100%;
+	display: block;
+	color: red;
+}
+
+a[href$=".docx"] {
+	color: deepskyblue;
+}
+
+a[href$=".doc"] {
+	color: #3737c4;
+}

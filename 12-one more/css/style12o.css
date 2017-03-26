@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	background-color: aqua;
+	overflow: hidden;
+	
+}
+
+.curtain {
+	width: 100&
+	height: 50vh;
+}
+
+.top {
+	background-color: orange;
+	animation-name: down;
+	animation-duration: 1s;
+	
+}
+
+.bottom {
+	background-color: green;
+	animation-name: up;
+	animation-duration: 1s;
+	
+}
+
+@keyframes down {
+	from {
+		transform: translateY(-100%);
+		
+		
+	}
+	to {
+		transform: translateY(0%);
+	}
+	
+}
+
+@keyframes up {
+	from {
+		transform: translateY(-100%);
+
+
+	}
+	to {
+		transform: translateY(0%);
+	}
+
+}
